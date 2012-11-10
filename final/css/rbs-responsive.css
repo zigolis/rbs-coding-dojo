@@ -1,0 +1,20 @@
+@media (min-width:980px) and (max-width:1179px){ /*ipad 1,2, 3 landscape*/
+	.rbs-candidatos li .ct .b-p{width:885px}
+}
+
+@media (min-width:669px) and (max-width: 768px){
+	.rbs-candidatos li .ct .b-p{width:630px} /*ipad 1,2, 3 portrait*/
+}
+
+@media (min-width:321px) and (max-width: 480px){ /*iphone landscape*/
+	.rbs-candidatos li .ct .b-p{width:340px}
+	.rbs-candidatos li .ct .b-p, .rbs-candidatos li .ct .v-p{height:13px}
+}
+
+@media (max-width: 320px) { /*iphone portrait*/
+	.rbs-candidatos li .ct .b-p{width:220px}
+	.rbs-candidatos img{height:44px;width:44px}
+	.rbs-candidatos li .ct .b-p, .rbs-candidatos li .ct .v-p{height:13px}
+	.rbs-candidatos li .ct .ct-d h2{font-size:14px}
+	.rbs-candidatos li .ct p{font-size:14px}
+}
